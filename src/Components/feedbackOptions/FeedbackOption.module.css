@@ -1,0 +1,14 @@
+.btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 700;
+}
+.btn + .btn {
+  margin-left: 15px;
+}
+.btn:hover {
+  background-color: rgb(8, 170, 224);
+}

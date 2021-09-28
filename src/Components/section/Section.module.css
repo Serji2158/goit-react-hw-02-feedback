@@ -1,0 +1,8 @@
+.section {
+  margin-top: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+}
