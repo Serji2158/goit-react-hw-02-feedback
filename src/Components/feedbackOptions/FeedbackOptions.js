@@ -16,7 +16,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           {item}
         </button>
       ))}
-      ;
     </>
   );
 };

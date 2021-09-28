@@ -1,11 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Notification = () => {
+const Notification = ({ title }) => {
   return (
     <>
-      <h2>No feedback given</h2>
+      <h2>{title}</h2>
     </>
   );
 };
 
+Notification.propTypes = {
+  title: PropTypes.string,
+};
 export default Notification;
